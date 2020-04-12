@@ -1,0 +1,37 @@
+format:
+  enabled: true
+  teacher: '&7(&a&lTeacher&7) &f[name] &8> &f[message]'
+  player: '&f[name] &8> &7[message]'
+settings:
+  block-commands: false
+  allowed-commands:
+  - /rh
+  - /raisehand
+  - /lessons
+  - /rooms
+  - /class
+  - /handin
+  - /hi
+  - /msg
+  - /r
+  - /yourothercommand
+  blocked-spells:
+  - deathly_spell
+  - that_may_not
+  - be_casted_in
+  - class
+  max-grades: 10
+  hand-in-must-be-a-book: true
+permissions:
+  admin: classroom.admin
+  teacher: classroom.teacher
+  player: classroom.player
+location:
+  main-spawn:
+    ==: org.bukkit.Location
+    world: world
+    x: -4.733752651940049
+    y: 84.0
+    z: 17.340262096207955
+    pitch: -5.549918
+    yaw: -10.371913

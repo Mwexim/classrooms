@@ -1,0 +1,67 @@
+grades:
+  '0':
+    money: 0
+    commands:
+    - yourcommand
+    - give [player] diamond 0
+    - broadcast [player] scored [grade] in his class!
+  '1':
+    money: 10
+    commands:
+    - yourcommand
+    - give [player] diamond 1
+    - broadcast [player] scored [grade] in his class!
+  '2':
+    money: 20
+    commands:
+    - yourcommand
+    - give [player] diamond 2
+    - broadcast [player] scored [grade] in his class!
+  '3':
+    money: 30
+    commands:
+    - yourcommand
+    - give [player] diamond 3
+    - broadcast [player] scored [grade] in his class!
+  '4':
+    money: 40
+    commands:
+    - yourcommand
+    - give [player] diamond 4
+    - broadcast [player] scored [grade] in his class!
+  '5':
+    money: 50
+    commands:
+    - yourcommand
+    - give [player] diamond 5
+    - broadcast [player] scored [grade] in his class!
+  '6':
+    money: 60
+    commands:
+    - yourcommand
+    - give [player] diamond 6
+    - broadcast [player] scored [grade] in his class!
+  '7':
+    money: 70
+    commands:
+    - yourcommand
+    - give [player] diamond 7
+    - broadcast [player] scored [grade] in his class!
+  '8':
+    money: 80
+    commands:
+    - yourcommand
+    - give [player] diamond 8
+    - broadcast [player] scored [grade] in his class!
+  '9':
+    money: 90
+    commands:
+    - yourcommand
+    - give [player] diamond 9
+    - broadcast [player] scored [grade] in his class!
+  '10':
+    money: 100
+    commands:
+    - yourcommand
+    - give [player] diamond 10
+    - broadcast [player] scored [grade] in his class!

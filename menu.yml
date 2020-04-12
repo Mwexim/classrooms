@@ -1,0 +1,46 @@
+inventories:
+  overview:
+    title: '&a&lOverview Panel'
+  room:
+    title: '&a&lRoom Editing Panel'
+  teacher:
+    title: '&a&lTeacher Panel'
+  choose-player:
+    title: '&a&lChoose player'
+  choose-item:
+    title: '&a&lChoose essay'
+  player:
+    title: '&a&lLessons available'
+    item:
+      available:
+        type: LIME_WOOL
+        lore:
+        - ' '
+        - '&7Click on this item to'
+        - '&7join this class and follow'
+        - '&7this lesson!'
+        - ' '
+        - '&8- &7Teacher: &6[teacher]'
+        - ' '
+      busy:
+        type: RED_WOOL
+        lore:
+        - ' '
+        - '&7You are currently already'
+        - '&7following a lesson.'
+        - '&7Leave that lesson first!'
+        - ' '
+      leave:
+        type: RED_BED
+        name: '&c&lLeave'
+        lore:
+        - ' '
+        - '&7Click on this item to'
+        - '&7leave this class and go to the main hub.'
+        - '&7If the class already started, you'
+        - '&7can''t join it again!'
+        - ' '
+  item:
+    border:
+      type: GRAY_STAINED_GLASS_PANE
+      name: '&8\(°O°)/'
