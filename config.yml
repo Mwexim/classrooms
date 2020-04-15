@@ -26,12 +26,3 @@ permissions:
   admin: classroom.admin
   teacher: classroom.teacher
   player: classroom.player
-location:
-  main-spawn:
-    ==: org.bukkit.Location
-    world: world
-    x: -4.733752651940049
-    y: 84.0
-    z: 17.340262096207955
-    pitch: -5.549918
-    yaw: -10.371913
