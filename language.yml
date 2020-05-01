@@ -3,10 +3,12 @@ general:
 error:
   no-permission: '&cYou don''t have the permission to do that!'
   not-in-room: '&cJoin a lesson first before doing that!'
+  already-in-room: '&cThis player is already following/teaching a lesson!'
   only-players: '&cOnly players can do that!'
   not-teaching: '&cYou''re not teaching currently!'
   no-lessons-available: '&cThere aren''t any lessons available at the moment!'
   talking-not-allowed: '&cTalking is not allowed at the moment!'
+  raising-hand-not-allowed: '&cRaising your hand is not allowed at the moment!'
   room-already-exists: '&cThis room already exists!'
   already-raised-hand: '&cYou already raised your hand once!'
   chair-occupied: '&cSomeone is already sitting on this chair.'
@@ -14,6 +16,9 @@ error:
   item-not-allowed: '&cThis item can''t be given to your students!'
   magic-not-allowed: '&cYou can''t cast any spell at the moment.'
   spell-not-allowed: '&cThis spell is never allowed in class!'
+  wrong-command-usage: '&cYou used the command wrong. Do &4/class help &cfor a complete
+    list!'
+  invalid-argument: '&cThe argument you used (player or soemthing else) is invalid.'
   hand-in-must-be-book: '&cThe item you wanted to hand in is not a book!'
   hand-in-not-allowed: '&cThe item you wanted to hand in is not allowed!'
   wait-before-handing-in: '&cYou can''t hand in your essay right now!'
@@ -83,6 +88,8 @@ list:
     - '&a&l/class reload &8/ &7Reload the config files. &c(Admin)'
     - '&a&l/class leave &8/ &7Leave your current lesson.'
     - '&a&l/class stats <player> &8/ &7View your statistics. &c(Admin: player argument)'
+    - '&a&l/class forcejoin <player> &8/ &7Let a player join your class, even after
+      it started.'
     - '&a&l/rooms &8/ &7Open the room overview menu.'
     - '&a&l/lessons &8/ &7Open all available lessons.'
     - '&a&l/raisehand &7 or &a&l/rh &8/ &7Raise your hand.'
