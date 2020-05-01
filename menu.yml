@@ -40,6 +40,16 @@ inventories:
         - '&7If the class already started, you'
         - '&7can''t join it again!'
         - ' '
+      walking:
+        type: LEATHER_BOOTS
+        lore:
+        - ' '
+        - '&7To join this class, walk to'
+        - '&7the entrance of the room.'
+        - '&7You''ll need to find this classroom by yourself'
+        - ' '
+        - '&8- &7Teacher: &6[teacher]'
+        - ' '
   item:
     border:
       type: GRAY_STAINED_GLASS_PANE

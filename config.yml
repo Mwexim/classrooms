@@ -22,7 +22,22 @@ settings:
   - class
   max-grades: 10
   hand-in-must-be-a-book: true
+  sitting-on-chairs-enabled: true
+  multiple-times-raising-hands-allowed: false
+  walking-to-room-radius: 3
 permissions:
   admin: classroom.admin
   teacher: classroom.teacher
   player: classroom.player
+location:
+  main-spawn:
+    ==: org.bukkit.Location
+    world: world
+    x: -4.674962812066422
+    y: 84.0
+    z: 17.779685498457873
+    pitch: 49.80005
+    yaw: 12.128071
+conditions:
+  teaching:
+    min-lesson-time-seconds: 300
