@@ -1,27 +1,39 @@
 format:
   enabled: true
   teacher: '&7(&a&lTeacher&7) &f[name] &8> &f[message]'
+  assistant: '&7(&a&lAssistant&7) &f[name] &8> &f[message]'
   player: '&f[name] &8> &7[message]'
 settings:
-  block-commands: false
-  allowed-commands:
-  - /rh
-  - /raisehand
-  - /lessons
-  - /rooms
-  - /class
-  - /handin
-  - /hi
-  - /msg
-  - /r
-  - /yourothercommand
-  blocked-spells:
-  - deathly_spell
-  - that_may_not
-  - be_casted_in
-  - class
+  commands:
+    disabled: false
+    allowed:
+    - /rh
+    - /raisehand
+    - /lessons
+    - /rooms
+    - /class
+    - /handin
+    - /hi
+    - /msg
+    - /r
+    - /yourothercommand
+  spells:
+    blocked:
+    - deathly_spells
+    - that_may_not
+    - be_casted_in
+    - class
   max-grades: 10
-  hand-in-must-be-a-book: true
+  hand-in-must-be-book: true
+  chairs:
+    enabled: true
+  multiple-times-raising-hands-allowed: false
+  rooms:
+    walk-radius: 3
+  enable-teacher-item: true
+conditions:
+  teaching:
+    lesson-time: 300
 permissions:
   admin: classroom.admin
   teacher: classroom.teacher

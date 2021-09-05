@@ -65,3 +65,15 @@ grades:
     - yourcommand
     - give [player] diamond 10
     - broadcast [player] scored [grade] in his class!
+  teacher:
+    money: 100
+    commands:
+    - yourcommand
+    - give [player] diamond 10
+    - broadcast Thanks [player] for giving a lesson!
+  assistant:
+    money: 100
+    commands:
+    - yourcommand
+    - give [player] diamond 10
+    - broadcast Thanks [player] for assisting this lesson!

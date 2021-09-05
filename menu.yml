@@ -22,6 +22,17 @@ inventories:
         - ' '
         - '&8- &7Teacher: &6[teacher]'
         - ' '
+      walking:
+        type: LEATHER_BOOTS
+        lore:
+        - ' '
+        - '&7To join this class, walk to'
+        - '&7the entrance of the room.'
+        - '&7You''ll need to find this classroom'
+        - '&7by yourself'
+        - ' '
+        - '&8- &7Teacher: &6[teacher]'
+        - ' '
       busy:
         type: RED_WOOL
         lore:
@@ -44,3 +55,6 @@ inventories:
     border:
       type: GRAY_STAINED_GLASS_PANE
       name: '&8\(°O°)/'
+    unavailable:
+      type: RED_STAINED_GLASS_PANE
+      name: '&c\(°O°)/'
